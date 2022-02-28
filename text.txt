@@ -1,0 +1,14 @@
+-> run node 
+            $ npm init -y
+            npm i express -y
+            npm i nodemon --save-dev
+            npm i socket.io
+
+
+-> ep 5, nodemon ကို Script တစ်ခုအနေနဲ့ ထားပြီး အဲ့scriptကိုပဲ run လို့ရအောင်လုပ်, 
+        => package.json ထဲက scripts ထဲထည့်ထားပေးရ
+            => run တဲ့အခါ npm run script>name ကိုရေးပေးရင်ရပါပြီ.
+
+            eg. "scripts": {
+                    "dev": "nodemon index"
+                }
